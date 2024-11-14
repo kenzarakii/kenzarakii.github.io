@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+    emailjs.init("HxMl_nIuCHvDi_Ljy"); // Replace "YOUR_USER_ID" with your EmailJS user ID
+</script>
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>A.N.M Evenementielles</title>
+  <meta name="title" content="A.N.M Evenementielles">
+  <meta name="description" content="A.N.M Evenementielles Website">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="75" height="75" alt="ANM Evenementielles">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="74" height="44" alt="ANM Evenementielles">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Accueil</a>
+          </li>
+
+          <li>
+            <a href="#about-section" class="navbar-link">A
+              Propos</a>
+          </li>
+
+          <li>
+            <a href="#services-section" class="navbar-link">Nos
+              Services</a>
+          </li>
+
+          <li>
+            <a href="#project-section" class="navbar-link">Dernières
+              Réalisation</a>
+          </li>
+
+  
+
+          <li>
+            <a href="#contact-section" class="navbar-link">Nous Contacter</a>
+          </li>
+
+        </ul>
+
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://web.facebook.com/anmconstructions" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/anmgroupe/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+          <div class="hero-banner">
+            <!-- First Image -->
+            <div class="hero-image" style="background-image: url('./assets/images/pic1.jpg');">
+              <h1 class="hero-title">A.N.M Evenementielles</h1>
+            </div>
+            <!-- Second Image -->
+            <div class="hero-image" style="background-image: url('./assets/images/pic2.jpg');">
+              <h1 class="hero-title">Vivez l’instant, laissez-nous créer la magie !</h1>
+            </div>
+            <!-- Third Image -->
+            <div class="hero-image" style="background-image: url('./assets/images/pic3.png');">
+              <h1 class="hero-title">Faites de chaque moment une célébration inoubliable !</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section id="about-section" class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title" id="project-label">
+                <span class="black-text">A</span> <span class="styled-text">Propos</span>
+              </h2>
+
+              <p class="section-text">
+                <span class="highlight">A.N.M COM'Event</span> est votre partenaire pour des événements mémorables, qu'ils soient professionnels ou privés. Nous gérons tous les aspects, de l'organisation d’événements d’entreprise aux mariages uniques, en passant par la logistique, les animations, la communication, et l’accueil des invités. Avec expertise et passion, nous nous engageons à faire de chaque événement un moment exceptionnel, adapté à vos attentes.
+              </p>
+              
+            </div>
+
+            <div class="progress-picture" data-reveal="right">
+              <img src="./assets/images/anm.png" alt="Event Services Overview" style="width: 100%; height: auto;">
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <div class="why-choose-container">
+        <div class="stat-item">
+          <i class="fas fa-calendar-alt"></i>
+          <h3 class="count" data-target="10">0</h3>
+          <p>Des années d'expérience</p>
+        </div>
+        <div class="stat-item">
+          <i class="fas fa-briefcase"></i>
+          <h3 class="count" data-target="638">0</h3>
+          <p>Projets réussis</p>
+        </div>
+        <div class="stat-item">
+          <i class="fas fa-users"></i>
+          <h3 class="count" data-target="20">0</h3>
+          <p>Membres de l'équipe</p>
+        </div>
+        <div class="stat-item">
+          <i class="fas fa-smile"></i>
+          <h3 class="count" data-target="1510">0</h3>
+          <p>Clients heureux</p>
+        </div>
+      </div>
+      
+      
+      <section id="services-section" class="section services" aria-labelledby="services-label">
+        <div class="container">
+          <div class="title-wrapper" data-reveal="top">
+            <div>
+              <h2 class="h2 section-title" id="project-label">
+                <span class="black-text">Nos</span> <span class="styled-text">Services</span>
+              </h2>
+              <p>Avec notre expérience, notre expertise et notre passion pour l’événementiel, nous nous engageons à rendre chaque événement unique et mémorable, en nous adaptant à vos besoins spécifiques et en nous surpassant pour dépasser vos attentes.</p>
+            </div>
+          </div>
+      
+          <ul class="grid-list">
+            <li>
+              <div class="service-card service-card-1">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <figure class="card-banner">
+                      <img src="./assets/images/service1.jpg" width="670" height="390" loading="lazy" alt="Web Design" class="w-100">
+                    </figure>
+                    <h3 class="card-title">Organisation  d'Événements d'Entreprise</h3>
+                  </div>
+                  <div class="card-back">
+                    <p class="card-text">
+                      Nous offrons un service complet pour vos événements professionnels, que ce soit des conférences, des séminaires, ou des lancements de produits. De la planification à l'exécution, nous nous assurons que tout se déroule parfaitement. </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+      
+            <li>
+              <div class="service-card service-card-2">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <figure class="card-banner">
+                      <img src="./assets/images/service2.jpeg" width="600" height="367" loading="lazy" alt="Mobile Design" class="w-100">
+                    </figure>
+                    <h3 class="card-title">Mariages et Célébrations Privées</h3>
+                  </div>
+                  <div class="card-back">
+                    <p class="card-text">
+                      Notre équipe est spécialisée dans la création de mariages de rêve et d'événements privés uniques. Nous nous occupons de tous les détails, pour que vous puissiez profiter pleinement de vos moments spéciaux. </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card service-card-2">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <figure class="card-banner">
+                      <img src="./assets/images/service3.jpg" width="600" height="367" loading="lazy" alt="Mobile Design" class="w-100">
+                    </figure>
+                    <h3 class="card-title">Gestion de la Logistique et des Fournisseurs</h3>
+                  </div>
+                  <div class="card-back">
+                    <p class="card-text">
+                      Nous coordonnons tous les aspects logistiques de l'événement, y compris la réservation du lieu, la décoration, le son, l'éclairage, et la restauration, pour un événement réussi.</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="service-card service-card-2">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <figure class="card-banner">
+                      <img src="./assets/images/service4.jpg" width="600" height="367" loading="lazy" alt="Mobile Design" class="w-100">
+                    </figure>
+                    <h3 class="card-title">Animations et Divertissements</h3>
+                  </div>
+                  <div class="card-back">
+                    <p class="card-text">
+                      Nous proposons un large éventail d'animations et d'activités pour vos invités, adaptées à chaque type d'événement. </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="service-card service-card-2">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <figure class="card-banner">
+                      <img src="./assets/images/service5.jpg" width="600" height="367" loading="lazy" alt="Mobile Design" class="w-100">
+                    </figure>
+                    <h3 class="card-title">Service de Communication et de Marketing</h3>
+                  </div>
+                  <div class="card-back">
+                    <p class="card-text">
+                      Nous aidons à promouvoir votre événement grâce à des stratégies de communication adaptées, sur les réseaux sociaux, les invitations, et bien plus encore.</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+      
+            <li>
+              <div class="service-card service-card-3">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <figure class="card-banner">
+                      <img src="./assets/images/service6.png" width="600" height="367" loading="lazy" alt="SEO Optimization" class="w-100">
+                    </figure>
+                    <h3 class="card-title">Gestion des Invités et Accueil</h3>
+                  </div>
+                  <div class="card-back">
+                    <p class="card-text">
+                      Notre équipe veille à un accueil chaleureux et à une expérience agréable pour tous les invités, depuis leur arrivée jusqu'à leur départ. </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+      
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section  id="project-section" class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">
+                <span class="black-text">Dernières</span> <span class="styled-text">Réalisation</span>
+              </h2>
+              
+              
+
+              <p class="section-text">
+                Découvrez certains de nos derniers projets.
+              </p>
+            </div>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Organisation d'Événements d'Entreprise</p>
+
+                  <h3 class="h3 card-title">Conférence "Tech Future 2024"</h3>
+
+                  <p class="card-text">
+                    Nous avons organisé cette conférence réunissant 500 professionnels de la tech, avec des interventions de leaders d’opinion, des ateliers interactifs et un panel de discussions sur l'avenir des nouvelles technologies.
+                  </p>
+
+                  
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project1.png" width="670" height="390" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0"> Mariages et Célébrations Privées</p>
+
+                  <h3 class="h3 card-title">Mariage sur la Plage à Essaouira</h3>
+
+                  <p class="card-text">
+                    Un mariage intime sur une plage privée à Essaouira, avec une arche de fleurs blanches, des lanternes, et un dîner aux chandelles pour 50 invités, le tout orchestré pour un coucher de soleil parfait.
+                  </p>
+
+                  
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/project2.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">Gestion de la Logistique et des Fournisseurs</p>
+
+                  <h3 class="h3 card-title">Buffet Gastronomique pour un Gala de Charité</h3>
+
+                  <p class="card-text">
+                    Collaboration avec un traiteur étoilé pour offrir un buffet gastronomique lors d'un gala de charité, avec des plats raffinés et un service impeccable.
+                  </p>
+
+                 
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project3.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Animations et Divertissements</p>
+
+                  <h3 class="h3 card-title">Fête d'Anniversaire Enfantine de Lily</h3>
+
+                  <p class="card-text">
+                    Pour les 8 ans de Lily, nous avons organisé une fête d'anniversaire sur le thème de "La Forêt Enchantée". Nous avons installé une scène de théâtre avec des personnages déguisés en fées et lutins, et des ateliers de fabrication de couronnes et de baguettes magiques.
+                  </p>
+
+               
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project4.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section id="contact-section" class="section contact" aria-label="contact">
+        <div class="container">
+            <div class="contact-card">
+                <div class="contact-content">
+                    <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+                    <p class="section-text">
+                        I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me from this contact form and I will get back to you shortly.
+                    </p>
+                </div>
+    
+                <form class="contact-form">
+                    <div class="input-wrapper">
+                        <input type="text" name="name" placeholder="Name *" required class="input-field">
+                        <input type="email" name="email" placeholder="Email *" required class="input-field">
+                    </div>
+                    <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+                    <button type="submit" class="btn btn-secondary">Send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+      document.querySelector('.contact-form').addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent form from refreshing the page on submit
+  
+          // Send the form data to EmailJS
+          emailjs.sendForm('service_lhkiq7h', 'template_p2bm4gj', this)
+              .then(function(response) {
+                  alert('Message sent successfully!');
+                  console.log('SUCCESS!', response.status, response.text);
+              }, function(error) {
+                  alert('Failed to send message. Please try again later.');
+                  console.log('FAILED...', error);
+              });
+  
+          // Optionally, reset the form after submission
+          this.reset();
+      });
+  </script>
+  
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © A.N.M Evenementielles. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://web.facebook.com/anmconstructions" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/anmgroupe/" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
