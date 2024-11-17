@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://anmevenementielles.com/sitemap.xml
-Allow: /assets/images/
+Allow: /assets/images/logo.png
