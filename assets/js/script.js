@@ -144,3 +144,13 @@ for (let i = 0, len = revealDelayElements.length; i < len; i++) {
 window.addEventListener("scroll", reveal);
 window.addEventListener("load", reveal);
 
+document.addEventListener("scroll", function () {
+  const heroSection = document.querySelector(".hero");
+  const whatsappButton = document.getElementById("whatsapp-button");
+
+  if (window.scrollY > heroSection.offsetHeight) {
+    whatsappButton.style.display = "block";
+  } else {
+    whatsappButton.style.display = "none";
+  }
+});
